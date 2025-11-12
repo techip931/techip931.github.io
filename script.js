@@ -1,7 +1,7 @@
 const SUPABASE_URL = 'https://ykkdjrptxixjyxwncpgb.supabase.co'
 const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inlra2RqcnB0eGl4anl4d25jcGdiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjI2Mzc1NTcsImV4cCI6MjA3ODIxMzU1N30.W-rrBBdDYat-VR4-4cq_kLMAMqnmPgg5cS1J7Eo640w'
 
-const supabase = supabaseJs.createClient(SUPABASE_URL, SUPABASE_ANON_KEY)
+const supabase = supabaseJs.createClient(https://ykkdjrptxixjyxwncpgb.supabase.cohttps://ykkdjrptxixjyxwncpgb.supabase.co, eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inlra2RqcnB0eGl4anl4d25jcGdiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjI2Mzc1NTcsImV4cCI6MjA3ODIxMzU1N30.W-rrBBdDYat-VR4-4cq_kLMAMqnmPgg5cS1J7Eo640w')
 
 const emailEl = document.getElementById('email')
 const passEl = document.getElementById('password')
