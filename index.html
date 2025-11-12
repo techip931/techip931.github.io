@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Envelope Generator</title>
+  <base href="./">
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <main>
+    <h1>Envelope Generator</h1>
+
+    <section id="auth">
+      <input id="email" type="email" placeholder="Email" />
+      <input id="password" type="password" placeholder="Password" />
+      <div class="row">
+        <button id="signup">Sign Up</button>
+        <button id="login">Log In</button>
+        <button id="logout" style="display:none">Log Out</button>
+      </div>
+    </section>
+
+    <section id="uploader" style="display:none">
+      <input id="csvFile" type="file" accept=".csv" />
+      <select id="envelopeSize">
+        <option value="A7" selected>A7</option>
+        <option value="A1">A1</option>
+        <option value="A2">A2</option>
+        <option value="A9">A9</option>
+      </select>
+      <label><input id="includeReturn" type="checkbox" /> Include return address</label>
+      <button id="uploadBtn">Upload & Create Job</button>
+    </section>
+
+    <section id="statusArea">
+      <div id="status"></div>
+      <div id="download" style="display:none">
+        <button id="downloadZip">Download ZIP</button>
+        <div id="preview"></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+  <script src="./script.js" defer></script>
+</body>
+</html>
